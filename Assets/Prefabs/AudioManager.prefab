@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3140611165250377296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3140611165250377298}
+  - component: {fileID: 3140611165250377297}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3140611165250377298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140611165250377296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3140611165250377297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140611165250377296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a43009514cc7a4fad3731f374de6b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Explosion
+    clip: {fileID: 8300000, guid: f5b56472a98753c4dade81580260ffd7, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Movement1
+    clip: {fileID: 8300000, guid: edc5764a3ba920a42b11ee8a0dd27ee6, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Movement2
+    clip: {fileID: 8300000, guid: f3bd23d376a818b4c99bd19f3b0d79b6, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Movement3
+    clip: {fileID: 8300000, guid: 3cf5aa541b40c8c45a7179ed1a580cb4, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Movement4
+    clip: {fileID: 8300000, guid: e35f6f86e76b0874e98bad5e000b7b43, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: InvaderDeath
+    clip: {fileID: 8300000, guid: 0d4ad4ddb6ec2134487bb3fdc3dfd7ee, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Bullet
+    clip: {fileID: 8300000, guid: ecb5b04a5cfa26b46ac70c2805d5902a, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: UFO high
+    clip: {fileID: 8300000, guid: aef5b7bfb96f87e479953664431ad67f, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: UFO low
+    clip: {fileID: 8300000, guid: fdfd24789912f4942b1b2df3ce1b510a, type: 3}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
